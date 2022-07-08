@@ -1,0 +1,31 @@
+.advantage-section{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.form-description {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-wrapper {
+    width: 50%;
+    padding-bottom: 60px ;
+}
+
+.form-wrapper h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+    padding-top: 150px;
+}
+
+.form-wrapper p {
+    font-size: 18px;
+    font-family: 'Circe', sans-serif;
+    font-weight: 200;
+}

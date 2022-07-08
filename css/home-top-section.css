@@ -1,0 +1,41 @@
+.home-top-section {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main-section-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 180px 0;
+}
+
+.home-top-list {
+    margin-bottom: 60px;
+}
+
+.home-top-list li {
+    font-size: 22px;
+    line-height: 1.23em;
+    color: #fff;
+    padding-left: 17px;
+    position: relative;
+}
+
+.home-top-list li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.home-top-list li:not(:last-child) {
+    margin-bottom: 20px;
+}

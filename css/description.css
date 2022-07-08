@@ -1,0 +1,44 @@
+.description-section {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.desc-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-desc{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-left: 115px
+    
+}
+
+.single-desc span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #2F7DC0;
+}
+
+.single-desc p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.single-desc p1 {
+    font-family: 'Circe', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 4px;
+    line-height: 30px;
+}
+

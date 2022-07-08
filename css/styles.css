@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import '../fonts/Circe-Regular.woff2';
+@import './reset.css';
+@import './header.css';
+@import './home-top-section.css';
+@import './description.css';
+@import './advantage-section.css';
+@import './form-desc.css';
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1532px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 1.22em;
+    margin-bottom: 1em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.33em;
+    color: #fff;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+h2 span {
+    color: #74BDE9;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    background-color: #2F7DC0;
+    border-radius: 28px;
+    padding: 17px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.286em;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+}

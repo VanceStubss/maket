@@ -1,0 +1,53 @@
+.advantage-section{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.advantages-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-advantage{
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+}
+
+.advantage-icon{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: #2F7DC0;
+}
+
+.advantage-icon svg {
+  max-width: 95px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.single-advantage p {
+    width: calc(100% - 95px);
+    padding-left: 40px;
+    padding-top: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.single-advantage span {
+    padding: 30px 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.38em;
+}
+
